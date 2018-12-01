@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/CalculateBMI_id"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="CALCULATE BMI"/>
+        <item
+            android:id="@+id/Addroutine_id"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="ADD FITNESS ROUTINE"/>
+        <item
+            android:id="@+id/contactus_id"
+            android:icon="@drawable/ic_menu_share"
+            android:title="CONTACT US"/>
+        <item android:title="OUR LOCATION"
+            android:id="@+id/location_id"
+            android:icon="@drawable/ic_menu_send"/>
+        <item
+            android:id="@+id/about_id"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="ABOUT"/>
+        <item android:id="@+id/exit_id"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="EXIT"/>
+    </group>
+
+
+</menu>

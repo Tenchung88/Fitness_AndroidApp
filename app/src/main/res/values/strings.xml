@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">FinalProject_Android</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="about_text">This organization is founded in 1940 and we are been popular</string>
+    <string name="contact_text">
+        Better Fitness 2020 Inc.
+        5555 Main St.(suite 101)
+        Toronto,ON
+        M5M 5M5
+        tel: (416)555-5555
+        email:fitness@somewhere.com
+        url:http://www.senecacollege.ca
+    </string>
+    <string name="menu_delete">Delete the selected name</string>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="example.com.finalproject_android"
+    android:versionCode="1"
+    android:versionName="1.0">
+    <!--<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />-->
+    <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="FITNESS TRACKER APP"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Fitness_Tracker"
+            android:label="FITNESS TRACKER APP"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CalculateActivity"/>
+        <activity android:name=".AddTrainerActivity"/>
+        <activity android:name=".AboutActivity"
+            android:theme="@style/Theme.AppCompat.Dialog"/>
+        <activity android:name=".ContactUsActivity"/>
+        <activity android:name=".FramebyFrameActivity"/>
+        <activity android:name=".MapActivity" />
+
+        <provider android:name=".MyContentProvider"
+            android:authorities="com.example.trainer.trainers.contentprovider"/>
+        <uses-library android:name="org.apache.http.legacy"
+            android:required="false"/>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCb213Ruj-GTq7BitPP6Q4TDYbFhu6RbEU" />
+    </application>
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+</manifest>
